@@ -1,0 +1,19 @@
+package org.zerock.domain;
+
+import java.util.Date;
+//유틸로
+
+import lombok.Data;
+
+@Data
+public class BoardVO {
+	
+	private long bno;
+	private String title;
+	private String content;
+	private String writer;
+	private Date regdate;
+	private Date updatedate;
+	
+
+}
