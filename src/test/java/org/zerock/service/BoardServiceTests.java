@@ -67,8 +67,5 @@ public class BoardServiceTests {
 		board.setTitle("update new title");
 		log.info("modify result : " + service.modify(board));
 	}
-	
-	
- 
 
 }
